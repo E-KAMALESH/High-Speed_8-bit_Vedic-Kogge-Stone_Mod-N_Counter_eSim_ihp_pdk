@@ -77,10 +77,8 @@ This work uniquely blends:
 > This integrated approach elevates the project for academic prestige
 > and practical tapeout readiness.
 >
-**Schemat![WhatsApp Image 2025-10-26 at 22 38 30](https://github.com/user-attachments/assets/c3178a04-9812-4f0e-b150-b885ea7e8704)
-ic Diagram for N = 100** 
-
-
+**Schematic Diagram for N = 100**
+>![eSim_schematic](https://github.com/user-attachments/assets/d94b4307-99d0-4804-8a30-41a7b9bdcf92)
 > Figure 1: Schematic Diagram: Vedic-Kogge-stone Mod-100 Counter** 
 
 
