@@ -105,10 +105,10 @@ Figure 2: Simulation environment using eSim
 > count_out_5\
 > count_out_6\
 > count_out_7
-
-#W\
+>
+>#W\
 (Empty)\
-#S\
+>#S\
 (Empty)
 
 
@@ -135,26 +135,26 @@ Figure 3: Pre-synthesis simulation: Correct modulo-100 counting
 
 **Global Placement (OpenROAD):**
 
-Figure 5: Global placement for *N* = 100
+>Figure 5: Global placement for *N* = 100
 
 **Post-Routing:**
 
-Figure 6: Post-routing detailed view
+>Figure 6: Post-routing detailed view
 
 
 
->**Final DEF Layout:**
+**Final DEF Layout:**
 
 > Figure 7: Final DEF layout before GDS export for *N* = 100
 >
->**Synthesis and Place & Route**
+**Synthesis and Place & Route**
 
 Validated physical design pathway incorporating Yosys and OpenROAD,
 generating DEF and
 
 > GDS ready for tapeout.
 
-Figure 8: Final GDS layout visualization
+>Figure 8: Final GDS layout visualization
 
 
 
@@ -202,12 +202,12 @@ tapeout-ready ASIC component. Comprehensive validation and automation
 poise this design for success in competitive and industrial contexts.
 
 
-**References**\
->1\. *Kogge-stone Adder: Fast Parallel Adders*, IEEE Transactions on
+**References**
+> 1\. *Kogge-stone Adder: Fast Parallel Adders*, IEEE Transactions on
 Computers, 1982.
->2\. *Vedic Mathematics in Digital Design*, Journal of
+> 2\. *Vedic Mathematics in Digital Design*, Journal of
 VLSI Design, 2020.
-
+>
 > 3\. eSim,LibreLane,OpenROAD,Yosys, KLayout documentation.
 >
 > 4\. IHP Foundry Process and PDK Manuals.
