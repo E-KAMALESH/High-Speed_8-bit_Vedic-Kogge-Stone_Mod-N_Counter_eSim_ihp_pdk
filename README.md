@@ -132,27 +132,30 @@ timing closure and correct functional behavior.
 
 
 
-
 **Global Placement (OpenROAD):**
 
 ><img width="990" height="907" alt="global_placing" src="https://github.com/user-attachments/assets/bb94acf2-1524-4d5f-83b9-0c5b70b81301" />
+>
+>Figure 5: Global placement for N = 100
+>
+**Post-Routing**
 
->Figure 6![Uploading global_placing.png…]()
-: Post-routing detailed view
+><img width="993" height="924" alt="rounting" src="https://github.com/user-attachments/assets/5b8726d0-97dc-4b60-9b90-67ba2d946958" />
+>Figure 6: Post-routing detailed view
 
 
 
 **Final DEF Layout:**
 
+><img width="993" height="924" alt="DEF_Layout" src="https://github.com/user-attachments/assets/29216f31-1084-480e-93ad-3fe37a5148d4" />
 > Figure 7: Final DEF layout before GDS export for *N* = 100
 >
 **Synthesis and Place & Route**
 
 Validated physical design pathway incorporating Yosys and OpenROAD,
-generating DEF and
+generating DEF and GDS ready for tapeout.
 
-> GDS ready for tapeout.
-
+><img width="990" height="907" alt="final_gds" src="https://github.com/user-attachments/assets/206dea69-c93b-4f1d-b656-7df58d19bc26" />
 >Figure 8: Final GDS layout visualization
 
 
