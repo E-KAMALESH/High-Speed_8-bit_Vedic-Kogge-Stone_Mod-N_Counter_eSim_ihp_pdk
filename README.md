@@ -86,8 +86,8 @@ This work uniquely blends:
 
 Leveraging the eSim open-source environment ensures accurate simulation
 reflecting silicon-level behaviors and enabling robust validation before physical design.
-
-Figure 2: Simulation environment using eSim
+>![eSim_simulation](https://github.com/user-attachments/assets/994a3a7e-4d69-4b43-a34d-77b1a07edd0a)
+>Figure 2: Simulation environment using eSim
 
  **Physical Pin Assignment**
 >
@@ -119,15 +119,15 @@ Figure 2: Simulation environment using eSim
 Validates RTL correctness with waveforms showing seamless counter
 wrapping at *N* = 100.
 
-Figure 3: Pre-synthesis simulation: Correct modulo-100 counting
+>![rtl_simulation](https://github.com/user-attachments/assets/a83d76d7-84a9-48e9-8890-e00b58c2c3ef)
+>Figure 3: Pre-synthesis simulation: Correct modulo-100 counting
 
 > **Post-Synthesis Simulation**
 >
-> Confirms netlist fidelity post-synthesis optimizations, ensuring
-> timing closure and correct
->
-> functional behavior.
->
+Confirms netlist fidelity post-synthesis optimizations, ensuring
+timing closure and correct functional behavior.
+
+>![gate_simulation](https://github.com/user-attachments/assets/bff19ebf-8da7-41df-b225-722476216a18)
 > Figure 4: Post-synthesis simulation: Verified modulo-100 counter behavior
 
 
@@ -135,11 +135,10 @@ Figure 3: Pre-synthesis simulation: Correct modulo-100 counting
 
 **Global Placement (OpenROAD):**
 
->Figure 5: Global placement for *N* = 100
+><img width="990" height="907" alt="global_placing" src="https://github.com/user-attachments/assets/bb94acf2-1524-4d5f-83b9-0c5b70b81301" />
 
-**Post-Routing:**
-
->Figure 6: Post-routing detailed view
+>Figure 6![Uploading global_placing.png…]()
+: Post-routing detailed view
 
 
 
