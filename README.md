@@ -89,10 +89,10 @@ reflecting silicon-level behaviors and enabling robust validation before physica
 
 Figure 2: Simulation environment using eSim
 
->  **Physical Pin Assignment**
+ **Physical Pin Assignment**
 >
-> Pins are arranged as per foundry norms to finalize physical layout and
-> tapeout documentation: #N\
+> Pins are arranged as per foundry norms to finalize physical layout andtapeout documentation:
+> #N\
 > clk\
 > rst
 >
@@ -166,18 +166,6 @@ Figure 8: Final GDS layout visualization
 >
 > • Clean design layers with no metal or spacing issues.
 >
-**Results and Performance Area ,Timing, and Power**
-
-+-----------------+-----------------+-----------------+-----------------+
-| Architecture    | Area (*µm*2)    | Frequency (MHz) | Power (*µW*)    |
-+=================+=================+=================+=================+
-| Ripple\         | > 280\          | > 95\           | > 42\           |
-| Kogge-stone\    | > 212\          | > 115\          | > 37\           |
-| Ve              | > 210           | > 120           | > 35            |
-| dic-Kogge-stone |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-
-   Table 1: Performance comparison for Mod-N counters with *N* = 100
 
 **GDS Signoff and Tapeout Readiness**
 >
