@@ -205,6 +205,7 @@ poise this design for success in competitive and industrial contexts.
 **References**
 > 1\. *Kogge-stone Adder: Fast Parallel Adders*, IEEE Transactions on
 Computers, 1982.
+> 
 > 2\. *Vedic Mathematics in Digital Design*, Journal of
 VLSI Design, 2020.
 >
