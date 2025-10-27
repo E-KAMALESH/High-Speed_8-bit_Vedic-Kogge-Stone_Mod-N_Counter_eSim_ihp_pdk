@@ -5,8 +5,8 @@ eSim Marathon 2025
 
 **Author:** Kamalesh E
 
-> **Institution:** Government College of Technology,Coimbatore.
-> **Date:** October 27, 2025
+**Institution:** Government College of Technology,Coimbatore.
+**Date:** October 27, 2025
 
 **About the eSim Marathon and IHP SG13G2**
 
@@ -46,9 +46,7 @@ tapeout.
 >
 > • Develop a tapeout-ready design with compliant pin assignments and
 > physical design flows.
-
-1
-
+>
 > • Validate through comprehensive RTL, pre-synthesis simulations,
 > post-synthesis simulations, and physical layout verification.
 
@@ -80,18 +78,16 @@ This work uniquely blends:
 > This integrated approach elevates the project for academic prestige
 > and practical tapeout readiness.
 >
-> **4.2 Schematic Diagram for** *N* = 100
+**4.2 Schematic Diagram for** *N* = 100
 >
 > Figure 1: Schematic Diagram: Vedic-Kogge-stone Mod-100 Counter
 
 2
 
-> **Simulation Using eSim**
+**Simulation Using eSim**
 
 Leveraging the eSim open-source environment ensures accurate simulation
-reflecting silicon-
-
-> level behaviors and enabling robust validation before physical design.
+reflecting silicon-level behaviors and enabling robust validation before physical design.
 
 Figure 2: Simulation environment using eSim
 
@@ -117,39 +113,37 @@ Figure 2: Simulation environment using eSim
 #S\
 (Empty)
 
-3
 
->  **Simulation and Verification**
->
->  **Pre-Synthesis Simulation**
+**Simulation and Verification**
+
+>**Pre-Synthesis Simulation**
 
 Validates RTL correctness with waveforms showing seamless counter
 wrapping at *N* = 100.
 
 Figure 3: Pre-synthesis simulation: Correct modulo-100 counting
 
->  **Post-Synthesis Simulation**
+> **Post-Synthesis Simulation**
 >
 > Confirms netlist fidelity post-synthesis optimizations, ensuring
 > timing closure and correct
 >
 > functional behavior.
 >
-> Figure 4: Post-synthesis simulation: Verified modulo-100 counter
-> behavior
-
-4
+> Figure 4: Post-synthesis simulation: Verified modulo-100 counter behavior
 
 
-> **Global Placement (OpenROAD):**
+
+
+**Global Placement (OpenROAD):**
 
 Figure 5: Global placement for *N* = 100
 
->**Post-Routing:**
+**Post-Routing:**
 
 Figure 6: Post-routing detailed view
 
-5
+
 
 >**Final DEF Layout:**
 
@@ -166,7 +160,7 @@ Figure 8: Final GDS layout visualization
 
 
 
->**Physical Verification**
+**Physical Verification**
 >
 > • Successful DRC and LVS with no violations.
 >
@@ -174,7 +168,7 @@ Figure 8: Final GDS layout visualization
 >
 > • Clean design layers with no metal or spacing issues.
 >
->**Results and Performance Area ,Timing, and Power**
+**Results and Performance Area ,Timing, and Power**
 
 +-----------------+-----------------+-----------------+-----------------+
 | Architecture    | Area (*µm*2)    | Frequency (MHz) | Power (*µW*)    |
@@ -185,14 +179,14 @@ Figure 8: Final GDS layout visualization
 | dic-Kogge-stone |                 |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
 
-> Table 1: Performance comparison for Mod-N counters with *N* = 100
->
-> **7.2 GDS Signoff and Tapeout Readiness**
+   Table 1: Performance comparison for Mod-N counters with *N* = 100
+
+**GDS Signoff and Tapeout Readiness**
 >
 > All steps reflected meticulous preparation for a successful tapeout
 > submission in leading- edge technology.
 >
-> **8 Challenges and Solutions**
+**Challenges and Solutions**
 >
 > • Resolving DEF and pin mismatches through coordinated script and
 > configuration management.
@@ -203,7 +197,7 @@ Figure 8: Final GDS layout visualization
 > • Addressing corner-case timing and area constraints for foundry
 > compatibility.
 >
-> **9 Future Work**
+**Future Work**
 >
 > • Extending design to scalable widths (*N* = 256, *N* = 1024).
 >
@@ -214,7 +208,7 @@ Figure 8: Final GDS layout visualization
 >
 > • Deployment for multi-foundry tapeouts and mass production readiness.
 
-**10 Conclusion**
+**Conclusion**
 
 The Vedic-Kogge-stone Mod-100 counter project demonstrates cutting-edge
 arithmetic and design flow integration, delivering a top-tier,
@@ -222,7 +216,7 @@ tapeout-ready ASIC component. Comprehensive validation and automation
 poise this design for success in competitive and industrial contexts.
 
 
-**11 References**\
+**References**\
 >1\. *Kogge-stone Adder: Fast Parallel Adders*, IEEE Transactions on
 Computers, 1982.
 >2\. *Vedic Mathematics in Digital Design*, Journal of
