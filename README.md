@@ -1,7 +1,6 @@
-**High-Speed 8-bit Vedic-Kogge-stone Mod-N Counter: Digital**\
-**Implementation,Simulation, and Tapeout**
+**High-Speed 8-bit Vedic-Kogge-stone Mod-N Counter: Digital Implementation,Simulation, and Tapeout**
 
-eSim Marathon 2025
+ eSim Marathon 2025
 
 **Author:** Kamalesh E
 
@@ -36,7 +35,7 @@ mathematics and the modern Kogge-stone adder, this project pioneers a
 Mod-N counter with *N* = 100 optimized for performance and silicon
 tapeout.
 
-> **Objectives**
+**Objectives**
 >
 > • Design a scalable Mod-N counter (with *N* = 100) for high speed and
 > low area.
@@ -82,7 +81,6 @@ This work uniquely blends:
 >
 > Figure 1: Schematic Diagram: Vedic-Kogge-stone Mod-100 Counter
 
-2
 
 **Simulation Using eSim**
 
