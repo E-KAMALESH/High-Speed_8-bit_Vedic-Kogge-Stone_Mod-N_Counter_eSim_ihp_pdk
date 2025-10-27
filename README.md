@@ -27,7 +27,7 @@ set to *N* = 100 throughout. The design targets tapeout and conforms to
 real foundry requirements. The report presents theoretical background,
 methodology, verification, physical flow, and innovative features.
 
-**1** **Introduction**
+ **Introduction**
 
 Digital counters are essential modules in SoCs, timing circuits, and DSP
 systems. The drive for speed, power, and area efficiency motivates new
@@ -36,7 +36,7 @@ mathematics and the modern Kogge-stone adder, this project pioneers a
 Mod-N counter with *N* = 100 optimized for performance and silicon
 tapeout.
 
-> **2** **Objectives**
+> **Objectives**
 >
 > • Design a scalable Mod-N counter (with *N* = 100) for high speed and
 > low area.
@@ -52,7 +52,7 @@ tapeout.
 > • Validate through comprehensive RTL, pre-synthesis simulations,
 > post-synthesis simulations, and physical layout verification.
 
-**3** **Background: Vedic Mathematics in Digital Design**
+ **Background: Vedic Mathematics in Digital Design**
 
 Vedic mathematics is an ancient system notable for parallel, systematic
 arithmetic, ideal for VLSI implementation. The Urdhva Tiryakbhyam
@@ -61,9 +61,9 @@ additions with parallelism and minimal carry latency. Its integration
 reduces critical path delay and power, while maintaining compactness and
 scalability.
 
-**4** **Design Methodology**
+ **Design Methodology**
 
-**4.1** **Novelty and Innovation**
+ **Novelty and Innovation**
 
 This work uniquely blends:
 
@@ -86,7 +86,7 @@ This work uniquely blends:
 
 2
 
-> **4.3** **Simulation Using eSim**
+> **Simulation Using eSim**
 
 Leveraging the eSim open-source environment ensures accurate simulation
 reflecting silicon-
@@ -95,7 +95,7 @@ reflecting silicon-
 
 Figure 2: Simulation environment using eSim
 
-> **4.4** **Physical Pin Assignment**
+>  **Physical Pin Assignment**
 >
 > Pins are arranged as per foundry norms to finalize physical layout and
 > tapeout documentation: #N\
@@ -119,16 +119,16 @@ Figure 2: Simulation environment using eSim
 
 3
 
-> **5** **Simulation and Verification**
+>  **Simulation and Verification**
 >
-> **5.1** **Pre-Synthesis Simulation**
+>  **Pre-Synthesis Simulation**
 
 Validates RTL correctness with waveforms showing seamless counter
 wrapping at *N* = 100.
 
 Figure 3: Pre-synthesis simulation: Correct modulo-100 counting
 
-> **5.2** **Post-Synthesis Simulation**
+>  **Post-Synthesis Simulation**
 >
 > Confirms netlist fidelity post-synthesis optimizations, ensuring
 > timing closure and correct
@@ -140,31 +140,22 @@ Figure 3: Pre-synthesis simulation: Correct modulo-100 counting
 
 4
 
-+-----------------------------------+-----------------------------------+
-| > **6**                           | > **Physical Design and Tapeout   |
-|                                   | > Flow using the IHP SG13G2       |
-| **6.1**                           | > PDK(LibreLane)**                |
-|                                   | >                                 |
-|                                   | > **Placement and Routing         |
-|                                   | > Visualization**                 |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
 > **Global Placement (OpenROAD):**
 
 Figure 5: Global placement for *N* = 100
 
-**Post-Routing:**
+>**Post-Routing:**
 
 Figure 6: Post-routing detailed view
 
 5
 
-**Final DEF Layout:**
+>**Final DEF Layout:**
 
 > Figure 7: Final DEF layout before GDS export for *N* = 100
 >
-> **6.2** **Synthesis and Place & Route**
+>**Synthesis and Place & Route**
 
 Validated physical design pathway incorporating Yosys and OpenROAD,
 generating DEF and
@@ -173,21 +164,17 @@ generating DEF and
 
 Figure 8: Final GDS layout visualization
 
-6
 
-> **6.3** **Physical Verification**
+
+>**Physical Verification**
 >
 > • Successful DRC and LVS with no violations.
 >
 > • Pin assignments comply with foundry guidelines.
 >
 > • Clean design layers with no metal or spacing issues.
-
-+-----------------------------------+-----------------------------------+
-| **7**\                            | > **Results and Performance Area, |
-| **7.1**                           | > Timing, and Power**             |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
+>
+>**Results and Performance Area ,Timing, and Power**
 
 +-----------------+-----------------+-----------------+-----------------+
 | Architecture    | Area (*µm*2)    | Frequency (MHz) | Power (*µW*)    |
@@ -234,15 +221,15 @@ arithmetic and design flow integration, delivering a top-tier,
 tapeout-ready ASIC component. Comprehensive validation and automation
 poise this design for success in competitive and industrial contexts.
 
-7
 
 **11 References**\
-1. *Kogge-stone Adder: Fast Parallel Adders*, IEEE Transactions on
-Computers, 1982. 2. *Vedic Mathematics in Digital Design*, Journal of
+>1\. *Kogge-stone Adder: Fast Parallel Adders*, IEEE Transactions on
+Computers, 1982.
+>2\. *Vedic Mathematics in Digital Design*, Journal of
 VLSI Design, 2020.
 
 > 3\. eSim,LibreLane,OpenROAD,Yosys, KLayout documentation.
 >
 > 4\. IHP Foundry Process and PDK Manuals.
 
-8
+
