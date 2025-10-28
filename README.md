@@ -7,6 +7,54 @@
 **Institution:** Government College of Technology,Coimbatore.
 **Date:** October 27, 2025
 
+**Table of Contents**
+>
+> • [About the eSim Marathon and IHP SG13G2](#about-the-esim-marathon-and-ihp-sg13g2)
+>
+> • [Abstract](#abstract)
+>
+> • [Introduction](#introduction)
+>
+> • [Objectives](#objectives)
+>
+> • [Background: Vedic Mathematics in Digital Design](#background-vedic-mathematics-in-digital-design)
+>
+> • [Design Methodology](#design-methodology)
+>
+> • [Novelty and Innovation](#novelty-and-innovation)
+>
+> • [Schematic Diagram for N = 100](#schematic-diagram-for-n--100)
+>
+> • [Simulation Using eSim](#simulation-using-esim)
+>
+> • [Physical Pin Assignment](#physical-pin-assignment)
+>
+> • [Simulation and Verification](#simulation-and-verification)
+>   • [Pre-Synthesis Simulation](#pre-synthesis-simulation)
+>   • [Post-Synthesis Simulation](#post-synthesis-simulation)
+>
+> • [Global Placement (OpenROAD)](#global-placement-openroad)
+>
+> • [Post-Routing](#post-routing)
+>
+> • [Final DEF Layout](#final-def-layout)
+>
+> • [Synthesis and Place & Route](#synthesis-and-place--route)
+>
+> • [Physical Verification](#physical-verification)
+>
+> • [GDS Signoff and Tapeout Readiness](#gds-signoff-and-tapeout-readiness)
+>
+> • [Challenges and Solutions](#challenges-and-solutions)
+>
+> • [Future Work](#future-work)
+>
+> • [Conclusion](#conclusion)
+>
+> • [References](#references)
+>
+> • [Acknowledgement](#acknowledgement)
+
 **About the eSim Marathon and IHP SG13G2**
 
 The eSim Marathon - *Circuit Design & Simulation with IHP SG13G2* is a
