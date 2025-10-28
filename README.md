@@ -136,7 +136,7 @@ timing closure and correct functional behavior.
 
 ><img width="990" height="907" alt="global_placing" src="https://github.com/user-attachments/assets/bb94acf2-1524-4d5f-83b9-0c5b70b81301" />
 >
->Figure 5: Global placement for N = 100
+>Figure 5: Global placement for N=100
 >
 **Post-Routing**
 
@@ -148,7 +148,7 @@ timing closure and correct functional behavior.
 **Final DEF Layout:**
 
 ><img width="993" height="924" alt="DEF_Layout" src="https://github.com/user-attachments/assets/29216f31-1084-480e-93ad-3fe37a5148d4" />
-> Figure 7: Final DEF layout before GDS export for *N* = 100
+> Figure 7: Final DEF layout before GDS export for N=100
 >
 **Synthesis and Place & Route**
 
