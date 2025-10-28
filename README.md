@@ -79,7 +79,7 @@ This work uniquely blends:
 >
 **Schematic Diagram for N = 100**
 >![eSim_schematic](https://github.com/user-attachments/assets/d94b4307-99d0-4804-8a30-41a7b9bdcf92)
-> Figure 1: Schematic Diagram: Vedic-Kogge-stone Mod-100 Counter** 
+> Figure 1: Schematic Diagram: Vedic-Kogge-stone Mod-100 Counter 
 
 
 **Simulation Using eSim**
@@ -117,7 +117,7 @@ reflecting silicon-level behaviors and enabling robust validation before physica
 >**Pre-Synthesis Simulation**
 
 Validates RTL correctness with waveforms showing seamless counter
-wrapping at *N* = 100.
+wrapping at N = 100.
 
 >![rtl_simulation](https://github.com/user-attachments/assets/a83d76d7-84a9-48e9-8890-e00b58c2c3ef)
 >Figure 3: Pre-synthesis simulation: Correct modulo-100 counting
