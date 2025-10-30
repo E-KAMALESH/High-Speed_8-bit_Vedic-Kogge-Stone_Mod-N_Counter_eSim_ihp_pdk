@@ -264,8 +264,7 @@ VLSI Design, 2020.
 > 4\. IHP Foundry Process and PDK Manuals.
 
 **Acknowledgement**
->The author thanks FOSSEE, IIT Bombay, IHP Microelec
-tronics, and all open-source tool developers whose efforts
+>The author thanks FOSSEE, IIT Bombay, IHP Microelectronics, and all open-source tool developers whose efforts
 empower affordable and accessible VLSI design and tapeout.
 
 
