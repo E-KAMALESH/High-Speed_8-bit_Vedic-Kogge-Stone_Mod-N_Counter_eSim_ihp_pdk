@@ -71,7 +71,7 @@ This project details the specification, design, simulation, and physical
 implementation of a high-speed, area-efficient Mod-N counter employing
 Vedic arithmetic and Kogge-stone adder logic. The modulo parameter was
 set to *N* = 100 throughout. The design targets tapeout and conforms to
-real foundry requirements. The report presents theoretical background,
+real foundry requirements. This presents theoretical background,
 methodology, verification, physical flow, and innovative features.
 
  **Introduction**
